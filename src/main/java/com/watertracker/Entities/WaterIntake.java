@@ -10,7 +10,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
 
-@Entity
+@Entity(name="water_records")
 public class WaterIntake {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
