@@ -2,6 +2,8 @@ package com.watertracker.Repositories;
 
 import java.util.List;
 
+import com.watertracker.Entities.WaterIntake;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
